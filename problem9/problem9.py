@@ -4,6 +4,9 @@ def isPalindrome(x: int) -> bool:
         return True   
     return False
 
-assert(121 == True)
-assert(-121 == False)
-assert(10 == True)
+assert(isPalindrome(121) == True)
+assert(isPalindrome(-121) == False)
+assert(isPalindrome(10) == True)
+assert(isPalindromeNoString(121) == True)
+assert(isPalindromeNoString(-121) == False)
+assert(isPalindromeNoString(10) == True)
