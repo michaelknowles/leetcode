@@ -7,6 +7,3 @@ def isPalindrome(x: int) -> bool:
 assert(isPalindrome(121) == True)
 assert(isPalindrome(-121) == False)
 assert(isPalindrome(10) == True)
-assert(isPalindromeNoString(121) == True)
-assert(isPalindromeNoString(-121) == False)
-assert(isPalindromeNoString(10) == True)
